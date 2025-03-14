@@ -13,9 +13,9 @@ MAX_STUDENTS_DISPLAY = 16  # 최대 16명까지만 표시
 
 def get_color(count):
     green_shades = [
-        "#FFFFFF", "#E6FFE6", "#CCFFCC", "#B3FFB3", "#99FF99",
-        "#80FF80", "#66FF66", "#4DFF4D", "#33FF33", "#1AFF1A", "#00FF00",
-        "#00E600", "#00CC00", "#00B300", "#009900", "#008000", "#006600"
+        "#FFFFFF", "#F0FFF0", "#E0FFE0", "#D0FFD0", "#C0FFC0",
+        "#B0FFB0", "#A0FFA0", "#90FF90", "#80FF80", "#70FF70", "#60FF60",
+        "#50FF50", "#40FF40", "#30FF30", "#20FF20", "#10FF10", "#00EE00"
     ]
     return green_shades[min(count, len(green_shades) - 1)]
 
